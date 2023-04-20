@@ -32,7 +32,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run tinacms && hugo
+        run: tinacms build && hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
