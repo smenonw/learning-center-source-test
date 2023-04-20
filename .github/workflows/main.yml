@@ -24,8 +24,15 @@ jobs:
         with:
           hugo-version: '0.20.4'
 
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Build
-        run: hugo
+        run: npm run tinacms && hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
