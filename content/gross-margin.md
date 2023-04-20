@@ -1,13 +1,14 @@
 ---
-weight: "93"
-date: 2021-03-22T23:00:00+00:00
+weight: '93'
+date: 2021-03-22T23:00:00.000Z
 title: Gross Margin
 type: ''
 menu:
   company:
     weight: 4
-
+_template: default
 ---
+
 ## Overview
 
 Here you can see the details about [Profit & Loss]({{< relref "profit-loss/index.md" >}})' gross margin for each month of the current year.

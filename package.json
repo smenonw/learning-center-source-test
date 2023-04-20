@@ -1,0 +1,16 @@
+{
+  "name": "learning-center-source-test",
+  "version": "1.0.0",
+  "description": "Here you can find all the files __needed to build__ the site \"WETHOD Learning Center\".  ## Details * The site is statically generated using [Hugo](https://gohugo.io/); * The site is hosted on [GitHub Pages](https://pages.github.com/) with a custom domain at http://support.wethod.com; * If you need a visual editor and/or a simple CMS, you can use [Forestry.io](https://forestry.io); * The served files are in [another repo](https://github.com/wethod/wethod.github.io). We need to mantain different repositories for source code and served files because of how Forestry.io works; * The __FAQ__ section embed the [Responsa](https://goresponsa.com/) In-Page widget; * The __search__ functionality is obtained by using [Algolia DocSearch](https://community.algolia.com/docsearch/). ## How to edit  Using Forestry.io: 1. Login with the WETHOD account; 2. In the section \"My Sites\" choose \"wethod-learning-center\"; 3. Edit content; 4. Refresh the github.io page (clearing cache using `⌘ + MAIUSC + R`) to see the changes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.6",
+    "tinacms": "^1.4.6"
+  }
+}
