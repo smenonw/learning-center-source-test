@@ -75,9 +75,9 @@ Test with new text!
 
 *You can enable this type of timesheet from \[company settings]\({{\< relref "settings/index.md#company" >}}).*
 
-{{\< note title="Note" >}}
+{{< note title="Note" >}}
 **When you delete an area from a project's budget, its timesheet hours and notes are assigned to the "Generic" timesheet area.**
-{{\< /note >}}
+{{< /note >}}
 
 ### Automatic
 
