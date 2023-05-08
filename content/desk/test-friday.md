@@ -1,3 +1,8 @@
+---
+date: 2023-05-08T22:00:00.000Z
+title: Test Friday
+weight: '90'
+---
 
 ## Overview
 
@@ -12,7 +17,9 @@ Every Friday an e-mail will remind:
 
 **Remember to insert only the real worked hours, cheating isn't useful to anybody.** The data inserted here will be used to determine the actual \[budget consumption]\({{% relref "reports/index.md#budget-consumption" %}}) in terms of working hours for each project.
 
-[Budget consumption](/reports/index.md#budget-consumption)
+[Budget consumption](/reports/index#weekly-timesheet "Weekly timesheet")
+
+[Test link esterno](https://support.wethod.com)
 
 ### Weekly (default)
 
@@ -35,7 +42,7 @@ When a **project is archived**, you will still be able to see the hours and note
 If you need to make some adjustments, you can still unarchive the project while you fix your timesheet.
 
 {{< note title="Note" >}}
-**Only whitelisted users can edit or fill out timesheet hours for projects with the [timesheet whitelist]({{< relref "friday/index.md#whitelist" >}}) function activated.**
+**Only whitelisted users can edit or fill out timesheet hours for projects with the \[timesheet whitelist]\({{\< relref "friday/index.md#whitelist" >}}) function activated.**
 {{< /note >}}
 
 {{\< img-center src="/uploads/2022/04/06/timesheet-archived.png" >}}
@@ -53,7 +60,7 @@ The **Detailed Timesheet** allows you to:
 * Insert daily notes to add further details on single activities or tasks you've worked on for each project's area.
 
 {{% note title="Note" %}}
-**Only whitelisted users can edit or fill out timesheet hours for projects with the [timesheet whitelist]({{% relref "friday/index.md#whitelist" %}}) function activated.**
+**Only whitelisted users can edit or fill out timesheet hours for projects with the \[timesheet whitelist]\({{% relref "friday/index.md#whitelist" %}}) function activated.**
 {{% /note %}}
 
 {{\< img-center src="/uploads/2021/04/26/timesheet-detailed-overview.png" >}}
