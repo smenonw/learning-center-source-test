@@ -2,6 +2,38 @@ import type { TinaField } from "tinacms";
 export function defaultFields() {
   return [
     {
+      type: "rich-text",
+      name: "body",
+      label: "Body of Document",
+      description: "This is the markdown body",
+      isBody: true,
+      templates: [
+        {
+          name: 'note',
+          label: 'note',
+          match: {
+            start: '{{<',
+            end: '>}}',
+          },
+          fields: [
+            {
+              name: 'title',
+              label: 'Title',
+              type: 'string',
+              required: true,
+              ui: {
+                component: 'textarea',
+              },
+            },
+            {
+              name: 'children',
+              type: 'rich-text',
+            },
+          ],
+        },
+      ],
+    },
+    {
       type: "datetime",
       name: "date",
       label: "Date",
