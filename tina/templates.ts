@@ -22,7 +22,7 @@ export function defaultFields() {
               type: 'string',
               required: true,
               ui: {
-                component: 'textfield',
+                component: 'input',
               },
             },
             {
