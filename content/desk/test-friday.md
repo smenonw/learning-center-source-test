@@ -62,6 +62,8 @@ To get a quick resume about the hours distribution in the week, you just need to
 
 Test with new text!
 
+![](/uploads/2021/04/26/timesheet-detailed-weekly.png)
+
 {{\< img-center src="/uploads/2021/04/26/timesheet-detailed-weekly.png" >}}
 
 *You can enable this type of timesheet from \[company settings]\({{\< relref "settings/index.md#company" >}}).*
