@@ -10,7 +10,7 @@ Every Friday an e-mail will remind:
 
 ## Timesheet
 
-**Remember to insert only the real worked hours, cheating isn't useful to anybody.** The data inserted here will be used to determine the actual \[budget consumption]\({{\< relref "reports/index.md#budget-consumption" >}}) in terms of working hours for each project.
+**Remember to insert only the real worked hours, cheating isn't useful to anybody.** The data inserted here will be used to determine the actual \[budget consumption]\({{% relref "reports/index.md#budget-consumption" %}}) in terms of working hours for each project.
 
 [Budget consumption](/reports/index.md#budget-consumption)
 
