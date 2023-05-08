@@ -3,7 +3,6 @@ canonifyurls = true
 googleAnalytics = ""
 languageCode = "en-us"
 metadataformat = "yaml"
-theme = "hugo-material-docs"
 title = "WETHOD / Learning Center"
 [blackfriday]
 fractions = true
