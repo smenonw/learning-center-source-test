@@ -1,6 +1,13 @@
 .header {
 	overflow: visible;
 }
+
+img {
+	display:block;
+	margin: auto;
+	padding: 32px 0 0 0;
+}
+
 .figure--center{
 	display:block; 
 	margin: auto;
