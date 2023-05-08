@@ -22,12 +22,14 @@ export function defaultFields() {
               type: 'string',
               required: true,
               ui: {
-                component: 'textarea',
+                component: 'textfield',
               },
             },
             {
               name: 'children',
+              label: 'Content',
               type: 'rich-text',
+              required: true
             },
           ],
         },
