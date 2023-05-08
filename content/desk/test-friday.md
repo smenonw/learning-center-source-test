@@ -34,9 +34,9 @@ When a **project is archived**, you will still be able to see the hours and note
 
 If you need to make some adjustments, you can still unarchive the project while you fix your timesheet.
 
-{{\< note title="Note" >}}
-**Only whitelisted users can edit or fill out timesheet hours for projects with the \[timesheet whitelist]\({{\< relref "friday/index.md#whitelist" >}}) function activated.**
-{{\< /note >}}
+{{< note title="Note" >}}
+**Only whitelisted users can edit or fill out timesheet hours for projects with the [timesheet whitelist]({{< relref "friday/index.md#whitelist" >}}) function activated.**
+{{< /note >}}
 
 {{\< img-center src="/uploads/2022/04/06/timesheet-archived.png" >}}
 
@@ -52,9 +52,9 @@ The **Detailed Timesheet** allows you to:
 * Specify between normal working hours, travel hours, overnight shifts or overtime.
 * Insert daily notes to add further details on single activities or tasks you've worked on for each project's area.
 
-{{\< note title="Note" >}}
-**Only whitelisted users can edit or fill out timesheet hours for projects with the \[timesheet whitelist]\({{\< relref "friday/index.md#whitelist" >}}) function activated.**
-{{\< /note >}}
+{{% note title="Note" %}}
+**Only whitelisted users can edit or fill out timesheet hours for projects with the [timesheet whitelist]({{% relref "friday/index.md#whitelist" %}}) function activated.**
+{{% /note %}}
 
 {{\< img-center src="/uploads/2021/04/26/timesheet-detailed-overview.png" >}}
 
