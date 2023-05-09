@@ -13,6 +13,9 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
+    environment:
+      TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+      TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
     steps:
       - uses: actions/checkout@v2
         with:
