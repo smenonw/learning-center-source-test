@@ -1,4 +1,4 @@
-baseurl = "https://smenonw.github.io/"
+baseurl = "https://smenonw.github.io/support-test"
 canonifyurls = true
 googleAnalytics = ""
 languageCode = "en-us"
