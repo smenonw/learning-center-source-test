@@ -13,6 +13,8 @@ Every Friday an e-mail will remind:
 * Each project manager to compile the Project Status for its projects;
 * Each collaborator to compile the Timesheet for the projects he worked on.
 
+[Testo qui](link)
+
 ## Timesheet
 
 **Remember to insert only the real worked hours, cheating isn't useful to anybody.** The data inserted here will be used to determine the actual \[budget consumption]\({{% relref "reports/index.md#budget-consumption" %}}) in terms of working hours for each project.
