@@ -14,7 +14,7 @@ An alert is an inconsistency regarding the user. Each alert has a priority (indi
 
 Positioning the cursor over an alert will display a description of the problem.
 
-Some alerts depends on parameters that you can customize using the [Alerts Engine]({{< relref "settings/index.md#alerts-engine" >}}).
+Some alerts depends on parameters that you can customize using the [Alerts Engine](/settings/index#alerts-engine).
 
 ### Unsent Order
 
@@ -56,7 +56,7 @@ This alert appears on your desk if you have not yet accepted an invitation to co
 
 This alert is shown to the project manager of a project which has:
 
-* An [invoice plan]({{< relref "pipeline/index.md#invoice-plan" >}}) manually set;
+* An [invoice plan](/pipeline/index#invoice-plan) manually set;
 * A probability lower than 90
 
 A project is considered active when its probability reaches 90%, only when this happens makes sense to think about creating a invoice plan.
@@ -71,7 +71,7 @@ This alert is shown if you have the permission to approve budgets and there's a 
 
 ### Budget Consumption Too Fast
 
-This alert is shown if you’re the manager of a project where the [budget consumption]({{< relref "glossary/index.md##budget-consumption" >}}) is more than 15% greater than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
+This alert is shown if you’re the manager of a project where the [budget consumption](/glossary/index#budget-consumption) is more than 15% greater than the project's [progress](glossary/index#absolute-project-progress).
 
 {{< img-center src="/uploads/2017/08/28/budget_cons_too_fast.png" >}}
 
@@ -85,7 +85,7 @@ This can have two main causes:
 
 ### Budget Consumption Too Slow
 
-This alert is shown if you're manager of a project where the [budget consumption]({{< relref "reports/index.md#budget-consumption" >}}) is more than 15% lower than the project's [progress]({{< relref "glossary/index.md#absolute-project-progress" >}}).
+This alert is shown if you're manager of a project where the [budget consumption](/reports/index#budget-consumption) is more than 15% lower than the project's [progress](/glossary/index#absolute-project-progress).
 
 {{< img-center src="/uploads/2017/08/28/budget_cons_too_slow.png" >}}
 
@@ -160,7 +160,8 @@ A project status is required for a given week only if at least a timesheet has b
 
 ### Timesheet
 
-This alert is shown to employees who, during the last weeks, submitted timesheet amount lower than the target amount selected from the [Alerts Engine]({{< relref "settings/index.md#alerts-engine" >}}) section.
+This alert is shown to employees who, during the last weeks, submitted timesheet amount lower 
+than the target amount selected from the [Alerts Engine](/settings/index#alerts-engine) section.
 
 *How to solve it?* Provide the missing timesheets.
 
@@ -188,7 +189,8 @@ This alert is shown to the manager of a project if one of the following situatio
 * The probability is greater than 90% but the project hasn't a job order
 * The probability si lower than 90% and the project has a job order
 
-Remind: only active projects (which means projects with a probability greater or equal to 90%) must have a [job order]({{< relref "glossary/index.md#job-order" >}})
+Remind: only active projects (which means projects with a probability greater or equal to 90%) 
+must have a [job order](/glossary/index#job-order)
 
 *How to solve it?* Assign job order only to active projects.
 
@@ -202,7 +204,8 @@ In other words: the project is over, you have no reason to plan people on it.
 
 ### Planning / Budget Status
 
-This alert is shown to the manager of a project which has planned future resources but hasn't an approved [budget]({{< relref "budget/index.md#budget" >}})
+This alert is shown to the manager of a project which has planned future resources but hasn't an 
+approved [budget](/budget/index#budget)
 
 The planned resources say that the project is active but the budget is not approved, so the alert will remind you to approve it as soon as possible.You cannot plan resources if you haven’t got a budget  which gives you the right to do it.
 
@@ -222,7 +225,8 @@ This alert is shown to you if you're not planned for tomorrow (Saturday and Sund
 
 ### Orders / External Cost
 
-This alert is shown to the manager of a project where the sum of orders, travels and expenses go over the [budget external cost]({{< relref "budget/index.md#budget-external-cost" >}}).
+This alert is shown to the manager of a project where the sum of orders, travels and expenses go 
+over the [budget external cost](/budget/index#budget-external-cost).
 
 You don't want to spend money you don't have, do you? You do not have to go over the budget!
 
@@ -256,7 +260,8 @@ This alert is shown if you're sharing the same job order for different projects.
 
 Parameters: <span style="color:#FF9800">probability</span>
 
-This alert is shown if you're manager of a project with a probability equal or greater than <span style="color:#FF9800">probability</span> but it hasn't been added to a [program]({{< relref "pipeline/index.md#programs" >}}) yet.
+This alert is shown if you're manager of a project with a probability equal or greater than 
+<span style="color:#FF9800">probability</span> but it hasn't been added to a [program](/pipeline/index#programs) yet.
 
 *How to solve it?* Add project to a program or reduce its probability.
 
@@ -287,7 +292,8 @@ This alert means that your project has already an approved budget but lacks of a
 ### Missing project's type
 
 This alert means that your project lacks a Project Type. A Project Type is required for all projects or only for chargeable ones according to your alert settings.
-Visit the [Alerts Engine]({{< relref "settings/index.md#alerts-engine" >}}) section to change the projects that require a Project Type.
+Visit the [Alerts Engine](/settings/index#alerts-engine) section to change the projects 
+that require a Project Type.
 
 *How to solve it?* Head to the projects list and assign a Project Type.
 

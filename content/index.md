@@ -19,11 +19,11 @@ This enables WETHOD to create a system where everybody collaborate and keep info
 
 Just few elements are needed in order to get things working:
 
-* A project [budget]({{< relref "budget/index.md" >}});
+* A project [budget](/budget/index");
 
-* The weekly [timesheet]({{< relref "friday/index.md#timesheet" >}});
+* The weekly [timesheet](/friday/index#timesheet);
 
-* The weekly [project status]({{< relref "friday/index.md#project-status" >}}).
+* The weekly [project status](/friday/index#project-status).
 
 **The responsibility of updating each of these elements is shared among all the team members, avoiding any unnecessary administrative burden.**
 
@@ -65,6 +65,7 @@ The content of this guide is organized as the WETHOD app sections so, to make yo
 
 * If our explanation doesn't fit for you:
 
-	* Use the [FAQ]({{< relref "faq/index.md" >}}) section to find popular questions about WETHOD or make a new one;
+	* Use the [FAQ](/faq/index) section to find popular questions about WETHOD or make a 
+	  new one;
 
 	* Send us an email at **info@wethod.com**, we'll answer you as soon as possible.

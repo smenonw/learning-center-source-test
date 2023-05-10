@@ -19,7 +19,8 @@ Basically, this is the place where you define (for a project):
 * The external costs;
 * The selling price.
 
-Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning]({{< relref "planning/index.md" >}}) and creating [orders]({{< relref "finance/index.md#orders" >}}).
+Done? Now the budget must be approved by a supervisor and, once approved, the project manager 
+can start [planning](/planning/index) and creating [orders](/finance/index#orders).
 
 ## Budget approval
 
@@ -29,7 +30,7 @@ A user is able to approve a budget of a project if one of the following conditio
 *	The user is the project manager and its role has a flag on "approve" inside the budget section of the permissions settings.
 *	The user's role has a flag on "approve other" inside the budget section of the permissions settings.
 
-Role based permissions for budgets can be managed from the [permissions section]({{< relref "settings/index.md#permissions" >}}).
+Role based permissions for budgets can be managed from the [permissions section](/settings/index#permissions).
 
 {{< note title="Note" >}}
 **When a project reach 50% of probability, it's a good practice to make a budget for it.**
@@ -71,8 +72,11 @@ An area can be minimized by clicking on it, this let you appreciate more areas a
 Areas are grouped in order to show subtotals:
 
 * **Areas & Tasks** contains all areas created by the user plus "PM & Travels" which is a special area that's automaticcally added on each budget creation. This area contains two special tasks:
-  * **Travels**: external costs in this task appear as special cost row in [Project Report economics]({{< relref "reports/index.md#economics" >}}) where it is used to compare expected travel costs (coming from budget) and effective travels (created in [Travels section]({{< relref "finance/index.md#travels" >}}))
-  * **Expenses**: external costs in this task appear as special cost row in [Project Report economics]({{< relref "reports/index.md#economics" >}}) where it is used to compare expected expenses (coming from budget) and effective expenses (created in [Expenses section]({{< relref "finance/index.md#expenses" >}}))
+  * **Travels**: external costs in this task appear as special cost row in [Project Report 
+    economics](/reports/index#economics) where it is used to compare expected travel costs 
+    (coming from budget) and effective travels (created in [Travels section](/finance/index#travels)
+  * **Expenses**: external costs in this task appear as special cost row in [Project Report 
+    economics](/reports/index#economics) where it is used to compare expected expenses (coming from budget) and effective expenses (created in [Expenses section]({{< relref "finance/index.md#expenses" >}}))
         
 * **Total** contains:
   * **Contingency**: life is unpredictable and the unexpected is behind every corner, so why not be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating using more days, just in case. The contingency gives you more days and which you can use at every user level but, on the other hand, the suggested net price will grow
